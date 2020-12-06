@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCnMj8Xc5_jA0tqVHCoFHCk-2sHt4imItA&callback=initMap&libraries=&v=weekly"
+      defer
+    ></script>
+    <title>Мерчи</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="Dark Souls" onclick="change(this)" onmouseover="big(this)" onmouseout="small(this)"><a href="index.html">Dark Souls III</a></div>
+            <div onclick="change(this)" onmouseover="big(this)" onmouseout="small(this)"><a href="Enemy.html">Противники</a></div>
+            <div class="Оружие" onclick="change(this)" onmouseover="big(this)" onmouseout="small(this)"><a href="Weapons.html">Оружие</a></div>
+            <div onclick="change(this)" onmouseover="big(this)" onmouseout="small(this)"><a href="Characters.html">Персонажи</a></div>
+            <div onclick="change(this)" onmouseover="big(this)" onmouseout="small(this)"><a href="Локации.html">Локации</a></div>
+            <div onclick="change(this)" onmouseover="big(this)" onmouseout="small(this)"><a href="Magic.html">Магия</a></div>
+            <div onclick="change(this)" onmouseover="big(this)" onmouseout="small(this)"><a href="Meet.html">Мерчи</a></div>
+        </div>
+        
+        <div class="Mcontent">
+            <h1 id="Mh1">Место Встречи</h1>
+            <p id="Mp">Если вы такой же фанат серии игр Dark Souls. То присоединяйтесь к нам. Мы встречаемся каждую субботу в 14:00. 
+                Места где мы встречаемся: Батыр молл, Greenwich и KFC. Внизу есть карта в которой вы можете узнать более подробно о местанахождении этих мест.</p>
+            <h1 id="МЕh1">Мерчи</h1>
+            <p>У нас есть свой магазинчик с разными интересными вещами связанные с игрой Dark Souls. Он открывается в 9:00 и закрывается 21:00. Наш магазин находится внутри здания Батыр Молл.</p>
+        </div>
+        
+        <div id="Li"></div>
+        <div id="map"></div>
+        <div id="Li1"></div>
+    </div>
+</body>
+</html>

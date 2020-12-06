@@ -1,0 +1,170 @@
+body {
+    background-image: url(https://wallpaperset.com/w/full/d/2/9/209720.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 1600px;
+}
+
+.header {
+    padding-top: 5px;
+    display: flex;
+    justify-content: space-around;
+    color: rgba(255, 255, 255, 0.801);
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.content {
+    opacity: 1;
+}
+
+h1, p {
+    color: rgba(255, 255, 255, 0.801);
+    margin-left: 10px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.6);
+    position: relative;
+    width: 80%;
+    margin-left: 11%;
+    height: 1100px;
+}
+
+#Dark, #РАЗ, #СЮ {
+    border-bottom: gray 1px solid;
+    margin-bottom: -10px;
+}
+
+#map {
+    width: 50%;
+    height: 50%;
+    margin-top: 30px;
+    margin-left: 25%;
+}
+
+#Li {
+    border-bottom: gray 1px solid;
+}
+
+#Li1 {
+    border-bottom: gray 1px solid;
+    margin-top: 30px;
+}
+
+#Mh1 {
+    border-bottom: gray 1px solid;
+    margin-bottom: -10px;
+}
+
+#МЕh1 {
+    border-bottom: gray 1px solid;
+    margin-bottom: -10px;
+}
+
+a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.801);
+}
+
+figcaption {
+    color: rgba(255, 255, 255, 0.801);
+}
+
+figure {
+    width: 500px;
+    text-align: center;
+}
+
+.РП, .МБ, .Б {
+    width: 325px;
+    height: 430px;
+}
+
+#ПРh1, #РЯДh1, #МИНИh1, #БОССh1 {
+    border-bottom: gray 1px solid;
+    margin-bottom: -10px;
+}
+
+.EcontentF {
+    display: flex;
+    justify-content: space-around;
+}
+
+#Пh1 {
+    border-bottom: gray 1px solid;
+    margin-bottom: -10px;
+}
+
+#ОПh1, #ОРh1 {
+    border-bottom: gray 1px solid;
+    margin-bottom: -10px;
+}
+
+#Меч, #Кинжал, #Двуручный_меч, #Топор {
+    width: 300px;
+    height: 350px;
+
+}
+
+.WcontentF {
+    display: flex;
+    justify-content: space-around;
+}
+
+#ПЕh1, #ТОРh1, #КУЗh1, #ФАНh1 {
+    border-bottom: gray 1px solid;
+    margin-bottom: -10px;
+}
+
+#p1, #p2, #p3, #p4, #p5, #p6 {
+    margin-bottom: -10px;
+}
+
+.CcontentF {
+    display: flex;
+    justify-content: space-around;
+}
+
+#Служанка, #Андрэ, #Хайзел {
+    width: 300px;
+    height: 350px;
+}
+
+#ЛО {
+    border-bottom: gray 1px solid;
+    margin-bottom: -10px;
+}
+
+#Ариандель, #Цитадель, #Пик, #Город {
+    width: 300px;
+    height: 350px;
+}
+
+.ЛcontentF {
+    display: flex;
+    justify-content: space-around;
+}
+
+#МА, #ЧА, #ПИ, #ЧУ {
+    border-bottom: gray 1px solid;
+    margin-bottom: -10px;
+}
+
+.McontentF {
+    display: flex;
+    justify-content: space-around;
+}
+
+#Чары, #Пиромантия, #Чудеса {
+    width: 425px;
+    height: 300px;
+}
+
+.container {
+    margin-top: -7px;
+}
